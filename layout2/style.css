@@ -11,6 +11,15 @@ padding: 0;
     padding: 0 20px;   
 }
 
+.padding{
+    padding-left: 54px;
+    padding-right: 54px;
+}
+
+a {
+    text-decoration: none;
+}
+
 @media (max-width:1658px;){
     .container{
      max-width:1658px;
@@ -35,16 +44,20 @@ padding: 0;
     height: 345px;
     position: relative;
     display: flex;
-    width: 100%; 
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 54px;
+    padding-right: 54px;
         
 }
 
+/*
 .second_deader_slider {
     min-width: inherit;
     height: 580px;
     background-image: url(img/placeholder_9.jpg);
-/*    position:absolute;*/
-    top: 100px;
+    position:relative;
+    top: -290px;
     margin-left: 54px;
     margin-right: 54px;
     top:170px;
@@ -52,7 +65,7 @@ padding: 0;
 }
 
 .header_bottom {
-/*    widows: 1533px;*/
+    widows: 1533px;
     height: 102px;
     background-color: #f7f7f7;
 }
@@ -62,35 +75,78 @@ padding: 0;
 .headline {
     color: aliceblue;
 }
+*/
 
-.menu_icon {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 75px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.social {
+    display: flex;
+    list-style-type: none;
 }
 
-.logo_img {
-    margin-top: 20px;
-       
+
+
+.social_img_wi_fi {
+    padding: 20px 20px;
+    width: 13px;
+    height: 14px;
+}
+
+.social_img_linkedin {
+    padding: 20px 20px;
+    width: 15px;
+    height: 13px;
+}
+
+.social_img_twitter {
+    padding: 20px 20px;
+    width: 9px;
+    height: 16px;
+}
+
+.social_img_facebook{
+    padding: 20px 20px;
+    width: 9px;
+    height: 16px;
+}
+
+.social_img_search{
+    padding: 20px 20px;
+    width: 15px;
+    height: 16px;
+}
+
+.menu {
+    padding: 20px 20px;
 }
 
 
-
-
-
-
-
-.social_img {
-    margin: 20px;
-}
-
-.sotial {
-    position: absolute;
-    right: 54px;
-}
 
 .logo {
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    width: 151px;
+    height: 16px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.second_deader_slider {
+    background-image: url(img/placeholder_9.jpg);
+    width: 1530px;
 }
