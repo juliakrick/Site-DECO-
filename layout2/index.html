@@ -4,10 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Blog</title>
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap-grid.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    
+
+    <!--    <link rel="stylesheet" href="C:\Users\79258\Desktop\МАКЕТЫ И работы\site-DECO\bootstrap\bootstrap-4.5.3-dist\css\bootstrap-grid.css.map">-->
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     -->
+
+    <!--    <script src="jquery/jquery-3.5.1.js"></script>-->
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+
+
+
+    <link rel="stylesheet" href="deco.css">
+
     <meta name="wievport" content="width=device-width">
 </head>
 
@@ -40,48 +54,295 @@
 
 
             <div class="second_deader_slider">
-               <div class="headline">
-                  <p class="headline_p">Latest News</p>
-                <h2 class="headline_h2">BodyBuilding best
-                    for you health</h2> 
-               </div>
-               <div class="paginations">
-                   <div class="square_div">
-                       <a href="#" class="square"></a>
-                       <a href="#" class="square  square_active"></a>
-                       <a href="#" class="square"></a>
-                   </div>
-                   <div class="feature_art">
-                       <a href="#" class="social_link"><img src="img/top_155.png" alt="sotial" class="top"></a>
-                       <h5 class="vertical_text">Featured Article</h5>
-                       <a href="#" class="social_link"><img src="img/down_156.png" alt="sotial" class="down"></a>
-                   </div>
-               </div>
+                <div class="headline">
+                    <p class="headline_p">Latest News</p>
+                    <h2 class="headline_h2">BodyBuilding best
+                        for you health</h2>
+                </div>
+                <div class="paginations">
+                    <div class="square_div">
+                        <a href="#" class="square"></a>
+                        <a href="#" class="square  square_active"></a>
+                        <a href="#" class="square"></a>
+                    </div>
+                    <div class="feature_art">
+                        <a href="#" class="social_link"><img src="img/top_155.png" alt="sotial" class="top"></a>
+                        <h5 class="vertical_text">Featured Article</h5>
+                        <a href="#" class="social_link"><img src="img/down_156.png" alt="sotial" class="down"></a>
+                    </div>
+                </div>
             </div>
-            
+
             <div class="header_bottom">
-               <div class="header_bottom_content">
-                 <form action="#">
-                   <h3 class="signup">Signup to Newsletter</h3>
-                    <input class = "send_text" type="name" placeholder=" your name">
-                     <input class = "send_text" type="email" placeholder=" your email address">
-                     <input class="subscribe Now" type="submit" value="Subscribe Now">
-                 </form> 
-               </div>
-                
+                <div class="header_bottom_content">
+                    <form action="#">
+                        <h3 class="signup">Signup to Newsletter</h3>
+                        <input class="send_text" type="name" placeholder=" your name">
+                        <input class="send_text" type="email" placeholder=" your email address">
+                        <input class="subscribe Now" type="submit" value="Subscribe Now">
+                    </form>
+                </div>
+
             </div>
 
 
 
         </div>
-        
-        
-        <div class="content"></div>
-        
-        <div class="footer"> </div>
 
 
+        <!-- <div class="content"> -->
+
+        <div class="row  grid col-12">
+
+            <!--                  первая колонка-->
+
+            <div class="content_col  col_var_1  grid-item  col-3">
+                <div class="icon_background  icon_backdround_colour_1"><a href="#" class="link"><img src="img/icon_915.png" alt="pic" class="icon"></a></div>
+                <p class="column_p">Travelling</p>
+                <p class="column_headline">Travel besT Adventure</p>
+                <p class="date">January 25, 2016</p>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, ab, ducimus neque repellendus et error sit voluptate nesciunt impedit ipsam, deleniti dicta perferendis ullam sapiente. Quo provident distinctio nulla eaque.</p>
+                <div class="column_link"><a href="#" class="read_more">read more</a></div>
+                <div class="blockblock">
+                    <a href="#" class="link comments_link"><img src="img/icon_893.png" alt="pic" class="comment_pic">No Comment</a>
+                    <a href="#" class="link_s"><img src="img/__900.png" alt="pic" class="comment_social_pic  first_pic"></a>
+                    <a href="#" class="link_s"><img src="img/__899.png" alt="pic" class="comment_social_pic  sec_pic"></a>
+                    <a href="#" class="link_s"><img src="img/__898.png" alt="pic" class="comment_social_pic  three_pic"></a>
+                    <a href="#" class="link_s"><img src="img/__897.png" alt="pic" class="comment_social_pic  forth_pic"></a>
+
+                </div>
+
+            </div>
+
+            <!--              вторая колонка-->
+
+            <div class="content_col  col_var_2  grid-item  col-3">
+                <div class="place_for_foto"></div>
+                <div class="icon_background icon_backdround_colour_1"><a href="#" class="link"><img src="img/forma_1_377.png" alt="pic" class="forma_1_377"></a></div>
+                <p class="column_p">Travelling</p>
+                <p class="column_headline">Standard Image Post</p>
+                <p class="date">January 25, 2016</p>
+                <div class="padding_link"><a href="#" class="read_more">read more</a></div>
+                <div class="blockblock">
+                    <a href="#" class="link comments_link"><img src="img/icon_893.png" alt="pic" class="comment_pic">No Comment</a>
+                    <a href="#" class="link_s"><img src="img/__900.png" alt="pic" class="comment_social_pic  first_pic"></a>
+                    <a href="#" class="link_s"><img src="img/__899.png" alt="pic" class="comment_social_pic  sec_pic"></a>
+                    <a href="#" class="link_s"><img src="img/__898.png" alt="pic" class="comment_social_pic  three_pic"></a>
+                    <a href="#" class="link_s"><img src="img/__897.png" alt="pic" class="comment_social_pic  forth_pic"></a>
+
+                </div>
+            </div>
+
+
+            <!--     третья колонка-->
+
+            <div class="content_col  col_var_1  grid-item  col-3">
+                <div class="icon_background  icon_backdround_colour_1"><a href="#" class="link"><img src="img/icon_915.png" alt="pic" class="icon"></a></div>
+                <p class="column_p">Fashion</p>
+                <p class="column_headline">Simple post style</p>
+                <p class="date">January 25, 2016</p>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, ab, ducimus neque repellendus et error sit voluptate nesciunt impedit ipsam, deleniti dicta perferendis ullam sapiente. Quo provident distinctio nulla eaque.</p>
+                <div class="column_link"><a href="#" class="read_more">read more</a></div>
+                <div class="blockblock">
+                    <a href="#" class="link comments_link"><img src="img/icon_893.png" alt="pic" class="comment_pic">No Comment</a>
+                    <a href="#" class="link_s"><img src="img/__900.png" alt="pic" class="comment_social_pic  first_pic"></a>
+                    <a href="#" class="link_s"><img src="img/__899.png" alt="pic" class="comment_social_pic  sec_pic"></a>
+                    <a href="#" class="link_s"><img src="img/__898.png" alt="pic" class="comment_social_pic  three_pic"></a>
+                    <a href="#" class="link_s"><img src="img/__897.png" alt="pic" class="comment_social_pic  forth_pic"></a>
+
+                </div>
+            </div>
+
+            <!--    четвертая колонка-->
+
+            <div class="content_col  col_var_1  grid-item  col-3"></div>
+
+
+
+            <!--                   второй ряд-->
+
+            <!--            <div class="row">-->
+
+
+            <!--   первая колонка    -->
+
+            <div class="content_col  col_var_1  grid-item  col-3"></div>
+
+            <!--     вторая колонка-->
+
+            <div class="content_col  col_var_3  grid-item  col-3">
+                <div class="icon_background icon_backdround_colour"><a href="#" class="link"><img src="img/__571.png" alt="pic" class="icon"></a></div>
+
+                <p class="col_var3_text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus totam, fugit pariatur rerum assumenda, eligendi blanditiis necessitatibus, laborum illum voluptas quidem cumque sapiente ullam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus totam, fugit pariatur rerum assumenda, eligendi blanditiis necessitatibus, laborum illum voluptas quidem cumque sapiente ullam.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus totam, fugit pariatur rerum assumenda, eligendi blanditiis necessitatibus, laborum illum voluptas quidem cumque sapiente ullam </p>
+                <p class="column_p">Nathalia Alexy</p>
+            </div>
+
+            <!--    третья колонка-->
+
+
+            <div class="content_col  col_var_2  grid-item  col-3">
+                <div class="place_for_foto"></div>
+                <div class="icon_background"><a href="#" class="link"><img src="img/forma_1_377.png" alt="pic" class="forma_1_377"></a></div>
+                <p class="column_p">Travelling</p>
+                <p class="column_headline">Standard Image Post</p>
+                <p class="date">January 25, 2016</p>
+                <a href="#" class="read_more">read more</a>
+                <div class="blockblock">
+                    <a href="#" class="link comments_link"><img src="img/icon_893.png" alt="pic" class="comment_pic">No Comment</a>
+                    <a href="#" class="link_s"><img src="img/__900.png" alt="pic" class="comment_social_pic  first_pic"></a>
+                    <a href="#" class="link_s"><img src="img/__899.png" alt="pic" class="comment_social_pic  sec_pic"></a>
+                    <a href="#" class="link_s"><img src="img/__898.png" alt="pic" class="comment_social_pic  three_pic"></a>
+                    <a href="#" class="link_s"><img src="img/__897.png" alt="pic" class="comment_social_pic  forth_pic"></a>
+
+                </div>
+            </div>
+
+            <!--    четвертая колонка-->
+
+
+            <div class="content_col  col_var_1  grid-item  col-3">
+                <div class="icon_background"><a href="#" class="link"><img src="img/icon_915.png" alt="pic" class="icon"></a></div>
+                <p class="column_p">Travelling</p>
+                <p class="column_headline">Standard Image Post</p>
+                <p class="date">January 25, 2016</p>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, ab, ducimus neque repellendus et error sit voluptate nesciunt impedit ipsam, deleniti dicta perferendis ullam sapiente. Quo provident distinctio nulla eaque.</p>
+                <a href="#" class="read_more">read more</a>
+                <div class="blockblock">
+                    <a href="#" class="link comments_link"><img src="img/icon_893.png" alt="pic" class="comment_pic">No Comment</a>
+                    <a href="#" class="link_s"><img src="img/__900.png" alt="pic" class="comment_social_pic  first_pic"></a>
+                    <a href="#" class="link_s"><img src="img/__899.png" alt="pic" class="comment_social_pic  sec_pic"></a>
+                    <a href="#" class="link_s"><img src="img/__898.png" alt="pic" class="comment_social_pic  three_pic"></a>
+                    <a href="#" class="link_s"><img src="img/__897.png" alt="pic" class="comment_social_pic  forth_pic"></a>
+
+                </div>
+            </div>
+
+
+
+
+            <!--            <div class="row">-->
+
+            <!--                  первая колонка-->
+
+
+            <div class="content_col  col_var_1  grid-item  col-3">
+                <div class="icon_background"><a href="#" class="link"><img src="img/icon_915.png" alt="pic" class="icon"></a></div>
+                <p class="column_p">Travelling</p>
+                <p class="column_headline">Standard Image Post</p>
+                <p class="date">January 25, 2016</p>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, ab, ducimus neque repellendus et error sit voluptate nesciunt impedit ipsam, deleniti dicta perferendis ullam sapiente. Quo provident distinctio nulla eaque.</p>
+                <a href="#" class="read_more">read more</a>
+                <div class="blockblock">
+                    <a href="#" class="link comments_link"><img src="img/icon_893.png" alt="pic" class="comment_pic">No Comment</a>
+                    <a href="#" class="link_s"><img src="img/__900.png" alt="pic" class="comment_social_pic  first_pic"></a>
+                    <a href="#" class="link_s"><img src="img/__899.png" alt="pic" class="comment_social_pic  sec_pic"></a>
+                    <a href="#" class="link_s"><img src="img/__898.png" alt="pic" class="comment_social_pic  three_pic"></a>
+                    <a href="#" class="link_s"><img src="img/__897.png" alt="pic" class="comment_social_pic  forth_pic"></a>
+
+                </div>
+
+            </div>
+
+
+            <!--       вторая колонка-->
+
+
+            <div class="content_col  col_var_2  grid-item  col-3">
+                <div class="place_for_foto"></div>
+                <div class="icon_background"><a href="#" class="link"><img src="img/forma_1_377.png" alt="pic" class="forma_1_377"></a></div>
+                <p class="column_p">Travelling</p>
+                <p class="column_headline">Standard Image Post</p>
+                <p class="date">January 25, 2016</p>
+                <a href="#" class="read_more">read more</a>
+                <div class="blockblock">
+                    <a href="#" class="link comments_link"><img src="img/icon_893.png" alt="pic" class="comment_pic">No Comment</a>
+                    <a href="#" class="link_s"><img src="img/__900.png" alt="pic" class="comment_social_pic  first_pic"></a>
+                    <a href="#" class="link_s"><img src="img/__899.png" alt="pic" class="comment_social_pic  sec_pic"></a>
+                    <a href="#" class="link_s"><img src="img/__898.png" alt="pic" class="comment_social_pic  three_pic"></a>
+                    <a href="#" class="link_s"><img src="img/__897.png" alt="pic" class="comment_social_pic  forth_pic"></a>
+
+                </div>
+            </div>
+
+            <!--      третья колонка-->
+            <div class="content_col  col_var_1  grid-item  col-3"></div>
+
+            <!--    четвертая колонка-->
+
+            <div class="content_col  col_var_1  grid-item  col-3"></div>
+
+        </div>
+        <!-- </div> -->
+
+
+
+
+
+
+
+
+
+
+        <div class="footer">
+            <div class="text_footer_col">
+               
+                <div class="footer_col" style="width: 361px;">
+                    <h5 class="footer_col_h1">About Blog</h5>
+                    <p class="footer_col_subtext">Lorem ipsum dolor sit amet, conser adipisicing esse cillum dolore nulla pariatur.</p>
+                    <div class="footer_col_div">
+                        <p class="signature">Nathaliya Jhone</p>
+                    </div>
+                </div>
+
+
+                <div class="footer_col" style="width: 339px;">
+                    <h5 class="footer_col_h1">latest tweets</h5>
+                    
+                    <a href="#" class="footer_col_link"><img src="img/__15.png" alt="pic" class="footer_social_pic">@Twitter@magicalrebek</a>
+                    <p class="footer_col_subtext  footer_col_p_padding">Lorem ipsum dolor sit amet, conser adipisicing esse cillum dolore nulla pariatur.</p>
+                    
+                    <a href="#" class="footer_col_link"><img src="img/__15.png" alt="pic" class="footer_social_pic">@Twitter@magicalrebek</a>
+                    <p class="footer_col_subtext">Lorem ipsum dolor sit amet, conser adipisicing esse cillum dolore nulla pariatur.</p>
+                    
+                </div>
+
+                <div class="footer_col" style="width: 358px;">
+                    <div class="footer_col_h1">Follow me instagram</div>
+                    <div class="footer_columns">
+                        <div class="footer_tiny_columns  hi1"></div>
+                        <div class="footer_tiny_columns  hi2"></div>
+                        <div class="footer_tiny_columns  hi1"></div>
+                        <div class="footer_tiny_columns  hi1"></div>
+                        <div class="footer_tiny_columns  hi2"></div>
+                        <div class="footer_tiny_columns  hi1"></div>
+                    </div>
+                </div>
+
+                <div class="footer_col" style="width: 348px;">
+                    <div class="footer_col_h1">latest comment</div>
+                    <div class="footer_items footer_items_padding">
+                    <p class="footer_col_subtitle">From Alex :</p>
+                    <p class="footer_col_subtext">Developer Advocate @heyval isaiyou know the very well is talking about things .</p>
+                    </div>
+                    
+                    <div class="footer_items">
+                    <p class="footer_col_subtitle">From Alex :</p>
+                    <p class="footer_col_subtext">Developer Advocate @heyval isaiyou know the very well is talking about things .</p>
+                    </div>
+                    
+                </div>
+
+            </div>
+            <div class="footer_bottom">@2015 copyright .all right reserved by awesome theme     <span class="footer_bottom_text_border">terms policy</span>         disclaimer
+            </div>
+
+
+        </div>
+
+      
     </div>
+    <script src="app.js"></script>
 </body>
 
 </html>
