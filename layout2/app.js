@@ -11,7 +11,8 @@ var msnry = new Masonry( elem, {
 // element argument can be a selector string
 //   for an individual element
 var msnry = new Masonry( '.grid', {
-  gutter: 35
+  gutter: 30
 });
+
 
 
