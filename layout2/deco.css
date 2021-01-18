@@ -7,6 +7,7 @@
 .container {
 	width: 100%;
 	max-width: 1638px;
+	min-height: 1000px;
 	margin: 0 auto;
 	background-color: #f9f9fb;
 }
@@ -411,6 +412,7 @@ input {
 
 /*медиатеги*/
 
+/*
 @media (max-width:1658px; ) {
 	.container {
 		max-width: 1658px;
@@ -431,6 +433,7 @@ input {
 
 
 @media screen (max-width:767px; ) {}
+*/
 
 .logo_img {}
 
@@ -1854,4 +1857,108 @@ css for error_404.html
 
 .apology_link_img {
 	padding-top: 20px;
+}
+
+
+/*стили для nav.html*/
+
+.menu_container {
+	max-width: 1638px;
+	min-height: 1000px;
+	margin: 0 auto;
+	background-color: black;
+}
+
+.nav__menu {
+	padding-bottom: 33%;
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+}
+
+.nav_item {
+	font-family: Montserrat;
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	padding: 10px;
+}
+
+.menu_header {
+	width: 100%;
+	position: relative;
+}
+
+.menu_slider {
+	width: 93.41%;
+	background-image: url(img/placeholder_9.jpg);
+	height: 580px;
+	position: absolute;
+	top: 50px;
+	left: 3.3%;
+	right: 3.3%;
+	background-position: center;
+	background: cover;
+}
+}
+
+.nav_item:hover {
+	color: antiquewhite;
+}
+
+.nav_link {
+	padding: 5px;
+	color: white;
+}
+
+/*
+@media (max-width: 1024px;){
+	.nav__menu{
+		flex-direction: column;
+	}
+	.nav_item{
+		margin-top: 50px;
+	}
+	.menu_slider{
+		
+	}		
+}
+*/
+
+@media (max-width: 1024px) {
+	.menu_container {
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+
+	.nav__menu {
+		flex-direction: column;
+	}
+
+	.nav_item {
+		margin-top: 50px;
+	}
+
+	.nav_item {
+		margin-top: 50px;
+	}
+
+	.menu_slider {
+		width: 63%;
+		left: 230px;
+	}
+}
+
+@media (max-width: 667px) {
+	.nav__menu {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.menu_slider {
+		display: none;
+	}
+
 }
